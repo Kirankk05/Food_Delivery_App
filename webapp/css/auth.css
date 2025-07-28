@@ -1,0 +1,105 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: url('../images/food-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-container {
+    background: linear-gradient(135deg, rgba(255,255,255,0.15), rgba(255,255,255,0.05));
+    border: 1px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+    width: 380px;
+    transition: transform 0.2s ease;
+}
+
+
+.auth-container:hover {
+    transform: scale(1.01);
+}
+
+h2 {
+    font-size: 26px;
+    color: #282c3f;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+label {
+    font-size: 14px;
+    color: black;
+    display: block;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #fc8019;
+    outline: none;
+    box-shadow: 0 0 8px rgba(252, 128, 25, 0.3);
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #fc8019;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #f17000;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.link-box {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #686b78;
+}
+
+.link-box a {
+    color: #fc8019;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link-box a:hover {
+    text-decoration: underline;
+}
